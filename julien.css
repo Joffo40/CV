@@ -1,0 +1,374 @@
+/*a /* Liens par défaut (non survolés)
+{
+   text-decoration: none;
+   color: mediumblue;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens
+{
+   text-decoration: underline;
+   color: green;
+}
+h3
+{
+    color: #DE781F;
+}
+h2
+{
+    color: blue;
+    margin:0px;
+    padding:0px; 
+}
+header
+{
+    /*display: flex;
+    /*flex-direction: row;
+}
+body
+{
+    display: flex;
+    background-image: url("fond.jpg");
+    background-repeat: repeat; /* Le fond sera répété 
+    flex-direction: row;
+}
+img
+{
+float: right;
+align-self: flex-start;
+/*position: relative;
+/*left: 20px; 
+bottom: 20px;
+}
+.bordure
+{
+    width: 10%;
+    height: 100%;
+    margin-right: 15px;
+    background-image: url('bordure.jpeg');
+    border-radius: 10px;
+}
+
+.fonction
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 40px;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+.nom
+{   
+        font-size: 40px;
+}    
+section
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.bloc_page
+{
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    margin: 0px 10px;
+}
+.partie_inf
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.base
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.mail
+{
+   
+    flex-direction: column;
+    font-family: Times New Roman;
+    
+}
+.espace
+{
+    width: 15%;
+}
+.separation
+{
+    heigth: 10px; 
+    border: 3px grey solid;
+    border-radius: 20px / 10px;
+}
+.entete
+{    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.entete_sup2
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+*/
+@media screen and (max-width: 900px)
+
+a 
+{
+   text-decoration: none;
+   color: mediumblue;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+img
+{
+}
+h3
+{
+    color: #DE781F;
+}
+h2
+{
+    color: blue;
+    margin:0px;
+    padding:0px; 
+}
+body
+{
+    display: flex;
+    background-image: url("fond.jpg");
+    background-repeat: repeat; /* Le fond sera répété */
+    flex-direction: row;
+}
+    .bordure
+    {
+        display: none
+    }
+
+    .fonction
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 40px;
+        justify-content: space-between;
+        align-self: flex-end;
+    }
+    .nom
+    {
+        display: flex;
+        font-size: 40px;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    section
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
+     }
+        .base
+        {
+            order: 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .espace
+        {
+            order: 4;
+            width: 15%;
+        }
+        .pro
+        {
+            order: 1;
+        }         
+    }
+    .bloc_page
+    {
+        display: flex;
+        flex-direction: row;    
+        width: 100%;
+        margin: 0px 10px;
+    }
+    .partie_inf
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .mail
+    {
+        display: flex;
+        flex-direction: column;
+        font-family: Times New Roman;
+        justify-content: flex-start;
+    }
+    .space-between
+    {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .separation
+    {
+        width: 91%;
+        heigth: 10px; 
+        margin: 10px 1px;;
+        border: 3px grey solid;
+        border-radius: 20px / 10px;
+    }
+    p #photo
+    {
+   
+   display: none;
+   
+    }
+}
+@media all and (orientation: portrait)
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: mediumblue;
+   font-style: italic;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+img
+{
+}
+h3
+{
+    color: #DE781F;
+}
+h2
+{
+    color: blue;
+    margin:0px;
+    padding:0px; 
+}
+body
+{
+    display: flex;
+    background-image: url("fond.jpg");
+    background-repeat: repeat; /* Le fond sera répété */
+    flex-direction: row;
+}
+.bordure
+{
+    width: 10%;
+    height: 100%;
+    margin-right: 15px;
+    background-image: url('bordure.jpeg');
+    border-radius: 10px;
+}
+
+.fonction
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 40px;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+.nom
+{
+    display: flex;
+    font-size: 40px;
+}    
+header
+{    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+.bloc_page
+{
+    display: flex;
+    flex-direction: row;    
+    width: 100%;
+    margin: 0px 10px;
+}
+.partie_inf
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.base
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.mail
+{
+    display: flex;
+    flex-direction: column;
+    font-family: Times New Roman;
+    justify-content: flex-start;
+}
+.espace
+{
+    width: 15%;
+}
+.separation
+{
+    width: 99%;
+    heigth: 10px; 
+    border: 3px grey solid;
+    border-radius: 20px / 10px;
+}
+.entete
+{    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.entete_sup2
+{   
+    display: flex;
+    width: 99%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-start;
+}
+.entete_sup3
+{   
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
