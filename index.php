@@ -126,7 +126,7 @@
                         </div>  
                         <div class="loisirs"><p><h2>Loisirs:</h2>
                         <ul>
-                        <li><i>Suivi de cours en ligne (MOOC, OpenClassroom...), sports de montagne, ateliers de musique Jazz.</i></li><br><br>
+                        <li><i>Suivi de cours en ligne (MOOC, OpenClassroom...), <a href="https://imagemontagnejoffo.blogspot.com/">Sports de montagne,</a> ateliers de musique Jazz.</i></li><br><br>
                         </ul>
                         </div>
                     </div>
