@@ -762,7 +762,7 @@ section
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 40px;
+        font-size: 200px;
         justify-content: space-between;
         align-self: flex-end;
     }
