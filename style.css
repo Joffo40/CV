@@ -99,7 +99,7 @@ body
 }
 #cacher0
 {
-display: none;
+display: block;
 flex-direction: column;
 justify-content: space-between;
 margin:0px;
@@ -324,6 +324,7 @@ section
     }
     h3
     {
+       
         color: #DE781F;
     }
     h2
@@ -613,6 +614,8 @@ section
     }
     h3
     {
+        width: 40px;
+        height: 40px;
         color: #DE781F;
     }
     h2
@@ -629,7 +632,7 @@ section
     }
     #cacher0
     {
-        display: none;
+        display: "block";
         flex-direction: column;
         justify-content: space-between;
     }

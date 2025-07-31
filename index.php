@@ -229,27 +229,18 @@ const cacher = document.getElementById('cacher');
 cliquage()
 
 function cliquage() {         
-if (cacher.style.display == "none") {
-    cacher.style.display = "block";
-    bouton.src="./images/menu2.jpg";
+if (cacher.style.display != "none") {
+    cacher.style.display = "none";
+    bouton.src="./images/menu.jpg";
     bouton.title="Cliquez pour réduire";
     } else {
-    cacher.style.display  = "none";
-    bouton.src="./images/menu.jpg";
+    cacher.style.display  = "block";
+    bouton.src="./images/menu2.jpg";
     bouton.title="Cliquez pour étendre";
 
     }}
-function AdapterDivAResolution() {
-let x_res = screen.width;
-let y_res = screen.height;
-if(x_res < 1024)
-{
-bouton.src="./images/menu2.jpg";
-cacher.style.display = "block";
-cacher.style.visibility="visible";
-}
-}
-AdapterDivAResolution()
+
+
 bouton.addEventListener('click',cliquage, false);
 
 </script>
@@ -286,7 +277,7 @@ bouton.addEventListener('click',cliquage, false);
     cliquage2();
 
     function cliquage2() {         
-    if (cacher2.style.display !== "none") {
+    if (cacher2.style.display != "none") {
         cacher2.style.display  = "none";
         bouton2.src="./images/menu.jpg";
         bouton2.title="Cliquez pour étendre";
