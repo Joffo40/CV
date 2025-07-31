@@ -2,7 +2,7 @@
 <html>
 <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="images/style.css" />
         <title>CV_J_BONZOM</title>
         <link rel="icon" href="images/fav.jpg" />
 </head>
@@ -49,7 +49,7 @@
         
         <div class="bordure"><!-- Bordure esthetique -->
         </div>
-        <bodyLast>
+        
         <div class="texte">
             <div class="partie_inf">
                 
@@ -60,9 +60,9 @@
                                     <div class="entete">
                                         <div class="nom">Julien BONZOM</div> 
                                         <div class="texte2">
-                                            100, avenue de la libération
-                                            <br /> 33700 MERIGNAC
-                                            <br /> tel: 06.76.11.84.57</div> 
+                                            27, rue berggren
+                                            <br /> 24200 BERGERAC
+                                            <br /> tel: 06.65.85.43.94</div> 
 
                                         <div class="mail"><a href="mailto:bonzomj@gmail.com">bonzomj@gmail.com</a></div>
                                         <?php
@@ -77,7 +77,7 @@
                                     </div> 
                                     
                                     
-                                    <div class="fonction">Ingénieur Mécanique/Développeur</div><!-- Titre -->
+                                    <div class="fonction">Ingénieur Mécanique</div><!-- Titre -->
                             </div>
                             <div class="separation"></div>
                         </div>
@@ -95,7 +95,7 @@
                             <li><Strong>Languages Informatiques:</Strong> HTML, CSS, PHP, SYMFONY, JAVASCRIPT, GIT, C, ADA, VISUAL BASIC (formation année 2006 et utilisation).</li>
                             <li><Strong>Outils AIRBUS:</Strong> SAP (formation année 2016 et utilisation), ACSA, PSN, SAFE, ISAMI, ASSIST, ASSIST-LINK.</li>
                             <li><Strong>Outils DASSAULT:</Strong> Outils Calcul Dassault (Statique/Fatigue et Tolerance aux dommages), NASGRO, CATIA FE (formation année 2017 et utilisation)</li>
-                            <li><Strong>Outils CALCUL/DESIGN:</Strong> PATRAN/NASTRAN, CADLINK (formation année 2006 et utilisation), CADDS 5, CATIAV5, EFFEL, AUTOCAD2000.</li>
+                            <li><Strong>Outils CALCUL/DESIGN:</Strong> PATRAN/NASTRAN,Advance Design GRAITEC(formation année 2024), CADLINK (formation année 2006 et utilisation), CADDS 5, CATIAV5, EFFEL, AUTOCAD2000.</li>
                             <li><Strong>Outils OFFICE:</Strong> EXCEL, WORD, POWERPOINT, VISUAL BASIC (formation année 2006 et utilisation).</li>
                             <li><Strong>Langues:</Strong> Anglais (TOEIC Listening & Reading: 825 – 12/2013), Espagnol Scolaire.</li>
                         </ul>
@@ -132,7 +132,56 @@
                     </div>
                     <div class="espace"></div><!-- espace -->
                     <div class="pro"><h2>Expériences Professionnelles:</h2>
-                    <a href="CV-J_BONZOM.pdf"target="_blank"><i><Strong>Curriculum vitae</Strong></i></a>
+                    <a href="CV_J-BONZOM.pdf"target="_blank"><i><Strong>Curriculum vitae</Strong></i></a>
+
+                    <h3><Strong>Juin 2024 - Ingénieur Calcul chez CASADO - Fabricant de serres agricoles</Strong><br /><img src="./images/menu.jpg" title="Cliquez pour etendre" id='boutonprem'/></h3>
+                    
+                    <div id="cacher0">
+
+                        <ul>
+                            <li><Strong>Travaux Panneaux photovoltaïques</Strong><br />Justification de l'instalation de panneaux photovoltaïques au vent et à la neige pour la France et l'Outre-Mer<br /><br />
+                            <i>Utilisation de Advance Design GRAITEC, EUROCODES.</i></li> <br />
+                            <li><Strong>Serres Agricoles</Strong><br />Justification de structures de serres au vent et à la neige pour la France et l'Outre-Mer<br /><br />
+                            <i>Utilisation de Advance DEsign GRAITEC, EUROCODES.</i></li> <br />
+
+                        
+                        </ul>
+
+                    </div>
+    <script async>
+
+    let boutonprem = document.getElementById("boutonprem");
+    const cacher0 = document.getElementById('cacher0');
+        
+
+    cliquage0()
+
+    function cliquage0() {         
+    if (cacher0.style.display == "none") {
+        cacher0.style.display = "block";
+        boutonprem.src="./images/menu2.jpg";
+        boutonprem.title="Cliquez pour réduire";
+        } else {
+        cacher0.style.display  = "none";
+        boutonprem.src="./images/menu.jpg";
+        boutonprem.title="Cliquez pour étendre";
+
+        }}
+    function AdapterDivAResolution() {
+    let x_res = screen.width;
+    let y_res = screen.height;
+    if(x_res < 1024)
+    {
+    boutonprem.src="./images/menu2.jpg";
+    cacher0.style.display = "block";
+    cacher0.style.visibility="visible";
+    }
+    }
+    AdapterDivAResolution()
+    boutonprem.addEventListener('click',cliquage0, false);
+
+    </script>
+
                     <h3><Strong>Juin 2015- Ingénieur Calcul chez ENGINEERING CONCEPTION MAINTENANCE</Strong><br /><img src="./images/menu.jpg" title="Cliquez pour etendre" id='bouton'/></h3>
                     
                     <div id="cacher">
@@ -171,39 +220,40 @@
                         </ul>
 
                     </div>
-    <script async>
+<script async>
 
-    let bouton = document.getElementById("bouton");
-    const cacher = document.getElementById('cacher');
-        
+let bouton = document.getElementById("bouton");
+const cacher = document.getElementById('cacher');
+    
 
-    cliquage()
+cliquage()
 
-    function cliquage() {         
-    if (cacher.style.display == "none") {
-        cacher.style.display = "block";
-        bouton.src="./images/menu2.jpg";
-        bouton.title="Cliquez pour réduire";
-        } else {
-        cacher.style.display  = "none";
-        bouton.src="./images/menu.jpg";
-        bouton.title="Cliquez pour étendre";
-
-        }}
-    function AdapterDivAResolution() {
-    let x_res = screen.width;
-    let y_res = screen.height;
-    if(x_res < 1024)
-    {
-    bouton.src="./images/menu2.jpg";
+function cliquage() {         
+if (cacher.style.display == "none") {
     cacher.style.display = "block";
-    cacher.style.visibility="visible";
-    }
-    }
-    AdapterDivAResolution()
-    bouton.addEventListener('click',cliquage, false);
+    bouton.src="./images/menu2.jpg";
+    bouton.title="Cliquez pour réduire";
+    } else {
+    cacher.style.display  = "none";
+    bouton.src="./images/menu.jpg";
+    bouton.title="Cliquez pour étendre";
 
-    </script>
+    }}
+function AdapterDivAResolution() {
+let x_res = screen.width;
+let y_res = screen.height;
+if(x_res < 1024)
+{
+bouton.src="./images/menu2.jpg";
+cacher.style.display = "block";
+cacher.style.visibility="visible";
+}
+}
+AdapterDivAResolution()
+bouton.addEventListener('click',cliquage, false);
+
+</script>
+
                     <h3><Strong>Décembre 2009- Ingénieur Calcul chez SEGULA AERONAUTIQUE</Strong><br /><img src="./images/menu.jpg" title="Cliquez pour etendre" id='bouton2'/></h3>
                     
                     <div id="cacher2">
@@ -233,9 +283,9 @@
     let bouton2= document.getElementById("bouton2");
     const cacher2 = document.getElementById('cacher2');
         
-    cliquage();
+    cliquage2();
 
-    function cliquage() {         
+    function cliquage2() {         
     if (cacher2.style.display !== "none") {
         cacher2.style.display  = "none";
         bouton2.src="./images/menu.jpg";
@@ -245,7 +295,7 @@
         bouton2.src="./images/menu2.jpg";
         bouton2.title="Cliquez pour réduire";
         }}
-    bouton2.addEventListener('click',cliquage, false);
+    bouton2.addEventListener('click',cliquage2, false);
 
     </script>
 
@@ -286,8 +336,8 @@
     const cacher3 = document.getElementById('cacher3');
         
 
-    cliquage()                       
-    function cliquage() {         
+    cliquage3()                       
+    function cliquage3() {         
     if (cacher3.style.display != "none") {
         cacher3.style.display  = "none";
         bouton3.src="./images/menu.jpg";
@@ -297,7 +347,7 @@
         bouton3.src="./images/menu2.jpg";
         bouton3.title="Cliquez pour réduire";
         }}
-    bouton3.addEventListener('click',cliquage, false);
+    bouton3.addEventListener('click',cliquage3, false);
 
 
     </script>

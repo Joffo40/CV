@@ -1,3 +1,11 @@
+#bouton img,
+#boutonprem img,
+#bouton2 img,
+#bouton3 img {
+    width: 40px;  /* ou la taille que tu veux */
+    height: 40px; /* pour garder la proportion, tu peux aussi mettre seulement width */
+    object-fit: contain; /* pour que l'image garde ses proportions sans déformation */
+}
 a /* Liens par défaut (non survolés) */
 {
    text-decoration: none;
@@ -26,7 +34,7 @@ a img
 }
 h3
 {
-    color: #DE781F;
+    color: hsl(205, 75%, 50%);
 }
 h2
 {
@@ -36,7 +44,7 @@ h2
 h1
 {
     width: 5%;
-    heigth: 5%;
+    height: 5%;
 }
 ul
 {
@@ -59,11 +67,45 @@ body
 }
 #cacher
 {
-    display: none;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
+    margin:0px;
+    padding:0px;
 }
 #bouton
+{
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left:50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;  
+    cursor: pointer; 
+  
+}
+#bouton:hover
+{
+    width: 40px;
+    height: 40px;
+    border: 3px grey double;
+    margin-left:50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:0px;
+    cursor: pointer; 
+  
+}
+#cacher0
+{
+display: none;
+flex-direction: column;
+justify-content: space-between;
+margin:0px;
+padding:0px;
+}
+#boutonprem
 {
     width: 40px;
     height: 40px;
@@ -75,7 +117,7 @@ body
     cursor: pointer; 
   
 }
-#bouton:hover
+#boutonprem:hover
 {
     width: 40px;
     height: 40px;
@@ -231,7 +273,7 @@ section
 .separation
 {
     width: 99%;
-    heigth: 10px; 
+    height: 10px; 
     border: 3px grey solid;
     border-radius: 20px / 10px;
 }
@@ -370,6 +412,36 @@ section
         justify-content: flex-start;
         align-self: center;
     }
+    #cacher0
+    {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #boutonprem
+    {
+        width: 40px;
+        height: 40px;
+        border: none;
+        margin-left:50%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding:0px;
+        cursor: pointer; 
+    
+    }
+    #boutonprem:hover
+    {
+        width: 40px;
+        height: 40px;
+        border: 3px grey double;
+        margin-left:50%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding:0px;
+        cursor: pointer; 
+    
+    }
     #cacher
     {
         display: none;
@@ -495,7 +567,7 @@ section
     .separation
     {
         width: 99%;
-        heigth: 10px; 
+        height: 10px; 
         border: 3px grey solid;
         border-radius: 20px / 10px;
     }
@@ -554,6 +626,36 @@ section
         background-image: url("fond.jpg");
         background-repeat: repeat; /* Le fond sera répété */
         flex-direction: row;
+    }
+    #cacher0
+    {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #boutonprem
+    {
+        width: 40px;
+        height: 40px;
+        border: none;
+        margin-left:50%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding:0px;
+        cursor: pointer; 
+    
+    }
+    #boutonprem:hover
+    {
+        width: 40px;
+        height: 40px;
+        border: 3px grey double;
+        margin-left:50%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding:0px;
+        cursor: pointer; 
+    
     }
     #cacher
     {
@@ -712,7 +814,7 @@ section
     .separation
     {
         width: 99%;
-        heigth: 10px; 
+        height: 10px; 
         border: 3px grey solid;
         border-radius: 20px / 10px;
     }
