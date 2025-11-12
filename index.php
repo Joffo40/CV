@@ -74,6 +74,8 @@
                                         fclose($fp);
                                         print("$nbvisites visiteurs");?>
                                         <!--<div id="sfc9t1bqqgz5blpftsmeyefdd7yhqw6xem9"></div> <script type="text/javascript" src="https://counter10.optistats.ovh/private/counter.js?c=9t1bqqgz5blpftsmeyefdd7yhqw6xem9&down=async" async></script><noscript><a href="https://www.compteurdevisite.com" ><img src="https://counter10.optistats.ovh/private/compteurdevisite.php?c=9t1bqqgz5blpftsmeyefdd7yhqw6xem9" border="0"></a></noscript>-->
+                                    
+                                    
                                     </div> 
                                     
                                     
@@ -142,7 +144,7 @@
                             <li><Strong>Travaux Panneaux photovoltaïques</Strong><br />Justification de l'instalation de panneaux photovoltaïques au vent et à la neige pour la France et l'Outre-Mer<br /><br />
                             <i>Utilisation de Advance Design GRAITEC, EUROCODES.</i></li> <br />
                             <li><Strong>Serres Agricoles</Strong><br />Justification de structures de serres au vent et à la neige pour la France et l'Outre-Mer<br /><br />
-                            <i>Utilisation de Advance DEsign GRAITEC, EUROCODES.</i></li> <br />
+                            <i>Utilisation de Advance Design GRAITEC, EUROCODES.</i></li> <br />
 
                         
                         </ul>
@@ -250,7 +252,8 @@ bouton.addEventListener('click',cliquage, false);
                     <div id="cacher2">
                         <ul>
                             <li><Strong>01/2013-01/2015:</Strong><br />Pré-dimensionnement, Justification trappes A350-1000 pour DAHER-SOCATA:<br />
-                            Analyse analytique et FEM de pièces métalliques,<br />Rédaction des dossiers MAT_B et MAT_C,<br />Maillage des pièces métalliques du mécanisme des trappes.<br /><br /><i>Utilisation des Outils Calcul Dassault, NASGRO, CATIA FE, Ouvrages Références (Peterson, ESDU,...)</i></li> 
+                            Analyse analytique et FEM de pièces métalliques,<br />Rédaction des dossiers MAT_B et MAT_C,<br />Maillage des pièces métalliques du mécanisme des trappes.<br /><br /><i>
+Utilisation de PATRAN/NASTRAN, MTS004, M2841, ISAMI</i></li> 
 
                         <br />
 
