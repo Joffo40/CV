@@ -60,8 +60,8 @@
                                     <div class="entete">
                                         <div class="nom">Julien BONZOM</div> 
                                         <div class="texte2">
-                                            27, rue berggren
-                                            <br /> 24200 BERGERAC
+                                            31000 TOULOUSE
+                                            <br /> 33700 MERIGNAC
                                             <br /> tel: 06.65.85.43.94</div> 
 
                                         <div class="mail"><a href="mailto:bonzomj@gmail.com">bonzomj@gmail.com</a></div>
