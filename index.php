@@ -98,7 +98,7 @@
                             <li><Strong>Outils DASSAULT:</Strong> Outils Calcul Dassault (Statique/Fatigue et Tolerance aux dommages), NASGRO, CATIA FE (formation année 2017 et utilisation)</li>
                             <li><Strong>Outils CALCUL/DESIGN:</Strong> PATRAN/NASTRAN,Advance Design GRAITEC(formation année 2024), CADLINK (formation année 2006 et utilisation), CADDS 5, CATIAV5, EFFEL, AUTOCAD2000.</li>
                             <li><Strong>Languages Informatiques:</Strong> VISUAL BASIC (formation année 2006 et utilisation), HTML, CSS, PHP/SQL, JAVASCRIPT, GIT, C/C++, PYTHON, ADA.</li>
-                            <li><Strong>Outils OFFICE:</Strong> EXCEL, WORD, POWERPOINT, VISUAL BASIC (formation année 2006 et utilisation).</li>
+                            <li><Strong>Outils OFFICE:</Strong> EXCEL, WORD, POWERPOINT.</li>
                             <li><Strong>Langues:</Strong> Anglais (TOEIC Listening & Reading: 825 – 12/2013), Espagnol Scolaire.</li>
                         </ul>
                         
