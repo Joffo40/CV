@@ -234,11 +234,11 @@ function cliquage() {
 if (cacher.style.display != "none") {
     cacher.style.display = "none";
     bouton.src="./images/menu.jpg";
-    bouton.title="Cliquez pour réduire";
+    bouton.title="Cliquez pour étendre";
     } else {
     cacher.style.display  = "block";
     bouton.src="./images/menu2.jpg";
-    bouton.title="Cliquez pour étendre";
+    bouton.title="Cliquez pour réduire";
 
     }}
 
