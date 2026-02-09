@@ -96,7 +96,7 @@
                         <ul>
                                                         <li><Strong>Outils AIRBUS:</Strong> SAP (formation année 2016 et utilisation), ACSA, PSN, SAFE, ISAMI, ASSIST, ASSIST-LINK.</li>
                             <li><Strong>Outils DASSAULT:</Strong> Outils Calcul Dassault (Statique/Fatigue et Tolerance aux dommages), NASGRO, CATIA FE (formation année 2017 et utilisation)</li>
-                            <li><Strong>Outils CALCUL/DESIGN:</Strong> PATRAN/NASTRAN,Advance Design GRAITEC(formation année 2024), FEMAP, CADLINK (formation année 2006 et utilisation), CADDS 5, CATIAV5, EFFEL, AUTOCAD2000.</li>
+                            <li><Strong>Outils CALCUL/DESIGN:</Strong> PATRAN/NASTRAN,Advance Design GRAITEC(formation année 2024), FEMAP(formation Udemy année 2025), CADLINK (formation année 2006 et utilisation), CADDS 5, CATIAV5, EFFEL, AUTOCAD2000.</li>
                             <li><Strong>Languages Informatiques:</Strong> VISUAL BASIC (formation année 2006 et utilisation), HTML, CSS, PHP/SQL, JAVASCRIPT, GIT, C/C++, PYTHON, ADA.</li>
                             <li><Strong>Outils OFFICE:</Strong> EXCEL, WORD, POWERPOINT.</li>
                             <li><Strong>Langues:</Strong> Anglais (TOEIC Listening & Reading: 825 – 12/2013), Espagnol Scolaire.</li>
@@ -128,7 +128,7 @@
                         </div>  
                         <div class="loisirs"><p><h2>Loisirs:</h2>
                         <ul>
-                        <li><i>Suivi de cours en ligne (MOOC, OpenClassroom...), <a href="https://imagemontagnejoffo.blogspot.com/">Sports de montagne,</a> ateliers de musique Jazz.</i></li><br><br>
+                        <li><i>Suivi de cours en ligne (MOOC, OpenClassroom, Udemy...), <a href="https://imagemontagnejoffo.blogspot.com/">Sports de montagne,</a> ateliers de musique Jazz.</i></li><br><br>
                         </ul>
                         </div>
                     </div>
