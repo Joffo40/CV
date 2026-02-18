@@ -199,7 +199,7 @@
 
                         <br />
 
-                            <li><Strong>09/2016 – 01/2018 :</Strong><br /> Traitement des dérogations A350-900/1000_MLGB en tache 300-350 (tâches calcul) in-situ STELIA Rochefort :<br />
+                            <li><Strong>09/2016 – 01/2018 :</Strong><br /> Traitement des dérogations A350-900/1000 Pointe Avant en tache 300-350 (tâches calcul) in-situ STELIA Rochefort :<br />
 
                             Contribution à la justification de pièces métalliques en statique et fatigue au travers des méthodologies développées au sein de l’équipe.<br /><br />
                             <i>Utilisation de SAP, MTS004, M2841, ISAMI.</i><br /></li>    
@@ -212,7 +212,7 @@
 
                         <br />
 
-                            <li><Strong>06/2015 – 03/2016 :</Strong><br /> Traitement des dérogations S14A en tache 300-350 (tâches calcul) in-situ STELIA Rochefort :<br />
+                            <li><Strong>06/2015 – 03/2016 :</Strong><br /> Traitement des dérogations S14A(A320) en tache 300-350 (tâches calcul) in-situ STELIA Rochefort :<br />
 
                             Contribution à la justification de pièces métalliques en statique et fatigue au travers des méthodologies développées au sein de l’équipe.<br /><br />
                             <i>Utilisation de SAP, MTS004, M2841, ASSIST, SAFE.</i><br /></li>
