@@ -107,8 +107,6 @@
                         <div class="formation"><p><h2>Formation:</h2>
                         
                         <ul>
-                            <li><Strong>2023</Strong> Formation POEI (AJC Formation) au Metier de Développeur Embarqué C/C++</li>
-                            <li><Strong>2022</Strong> WILDCODESCHOOL de BORDEAUX (formation développeur web Full-Stack).</li>
                             <li><Strong>2001</Strong> Diplôme d’Ingénieur génie Mécanique de l’INSA de TOULOUSE<br />DEA de génie Mécanique (fatigue, matériaux composites,...).</li>
                             <li><Strong>1996</Strong> Baccalauréat Scientifique - spécialité technologie industrielle (Mention AB).</li>
 
